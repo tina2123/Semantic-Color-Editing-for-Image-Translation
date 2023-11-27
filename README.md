@@ -6,7 +6,7 @@ This repository enhances the image-to-image translation task by introducing Sema
 ## Installation
 ```bash
 git clone git@github.com:tina2123/Semantic-Color-Editing-for-Image-Translation.git
-cd PITI
+cd PITI````
 
 ## Environment
 conda env create -f environment.yml
