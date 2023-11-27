@@ -10,11 +10,15 @@ cd PITI
 ```
 
 ## Environment
+```bash
 conda env create -f environment.yml
+```
 
 ## Usage
 To run the Semantic Color Editing interface, execute the following command:
+```bash
 python inference.py
+```
 
 After running the command, navigate to the Gradio interface URL that will be displayed in your terminal. Here's how to use the interface:
 1. Upload an image to the interface.
