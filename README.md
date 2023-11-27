@@ -4,7 +4,8 @@
 This repository enhances the image-to-image translation task by introducing Semantic Color Editing. Users can select specific categories within the image and choose to color them with shades of green, red, or blue through a user-friendly Gradio interface.
 
 ## Installation
-`git clone git@github.com:tina2123/Semantic-Color-Editing-for-Image-Translation.git`
+```bash
+git clone git@github.com:tina2123/Semantic-Color-Editing-for-Image-Translation.git
 cd PITI
 
 ## Environment
