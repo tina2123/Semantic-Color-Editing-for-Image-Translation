@@ -15,9 +15,8 @@ from .nn import mean_flat
 from .losses import normal_kl, discretized_gaussian_log_likelihood
 import sys
 
-COCO_ANNOTATION_FILE_stuff = 'C:\\Users\\Bouth\\Downloads\\stuff_trainval2017 (1)\\stuff_val2017.json'
-#COCO_ANNOTATION_FILE = "../../data/stuff_trainval2017/stuff_val2017.json"
-COCO_ANNOTATION_FILE_things = "C:\\Users\\Bouth\\OneDrive\\Desktop\\computer_vision\\data\\annotations_2017\\instances_val2017.json"
+COCO_ANNOTATION_FILE_stuff = '/stuff_val2017.json'
+COCO_ANNOTATION_FILE_things = "/instances_val2017.json"
 first_person_region = None
 with open(COCO_ANNOTATION_FILE_stuff, 'r') as f:
         data_stuff = json.load(f)
