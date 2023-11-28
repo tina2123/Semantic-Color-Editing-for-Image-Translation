@@ -32,7 +32,7 @@ The labels.txt contains all the categories that the model can recognize and edit
 
 ## Example
 In the gradio interface, select the desired parameters. parameters like color, and category are added on top of the original [PITI](https://github.com/PITI-Synthesis/PITI) project 
-![Image](img_interface.png)
+![Image](interface.png)
 
 
 ## Acknowledgments
