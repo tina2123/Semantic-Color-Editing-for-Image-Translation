@@ -80,9 +80,9 @@ def _warmup_beta(beta_start, beta_end, num_diffusion_timesteps, warmup_frac):
     return betas
 
 def adjust_red_channel(img, mask_tensor):
-        img[:, 0, :, :] += mask_tensor * 2  
-        img[:, 1, :, :] -= mask_tensor * 1  
-        img[:, 2, :, :] -= mask_tensor * 1 
+        img[:, 0, :, :] += mask_tensor * 3  
+        img[:, 1, :, :] -= mask_tensor * 2  
+        img[:, 2, :, :] -= mask_tensor * 2 
         return img
 
 def adjust_green_channel(img, mask_tensor):
@@ -92,9 +92,9 @@ def adjust_green_channel(img, mask_tensor):
         return img
 
 def adjust_blue_channel(img, mask_tensor):
-    img[:, 0, :, :] -= mask_tensor * 1  
-    img[:, 1, :, :] -= mask_tensor * 1  
-    img[:, 2, :, :] += mask_tensor * 2 
+    img[:, 0, :, :] -= mask_tensor * 2 
+    img[:, 1, :, :] -= mask_tensor * 2 
+    img[:, 2, :, :] += mask_tensor * 3 
     return img
 def get_beta_schedule(beta_schedule, *, beta_start, beta_end, num_diffusion_timesteps):
     """
