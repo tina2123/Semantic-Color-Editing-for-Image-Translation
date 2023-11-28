@@ -15,7 +15,9 @@ conda env create -f environment.yml
 ```
 
 ## Usage
-Download the annotation of COCO dataset from [here](https://github.com/nightrome/cocostuff). 
+Please Download the annotation of COCO dataset and the pre-trained models for both Base model and Upsample model, and put them in ./ckpt.
+
+ from [here](https://github.com/nightrome/cocostuff). 
 To run the Semantic Color Editing interface, execute the following command:
 ```bash
 python inference.py
