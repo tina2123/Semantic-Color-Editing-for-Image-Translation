@@ -15,6 +15,7 @@ conda env create -f environment.yml
 ```
 
 ## Usage
+Download the annotation of COCO dataset from [here](https://github.com/nightrome/cocostuff). 
 To run the Semantic Color Editing interface, execute the following command:
 ```bash
 python inference.py
