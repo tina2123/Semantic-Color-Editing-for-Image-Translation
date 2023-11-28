@@ -1,7 +1,7 @@
 # Semantic-Color-Editing-for-Image-Translation
  Pretraining is All You Need with Semantic Color Editing for Image-to-Image Translation
  ## Introduction
-This repository, part of the coursework for MA-INF 2307 - Lab Computer Vision, enhances the image-to-image translation task by introducing Semantic Color Editing. Users can select specific categories within an image and choose to color them with shades of green, red, or blue. The functionality is demonstrated through a user-friendly Gradio interface, as detailed in the [lab report]([https://github.com/PITI-Synthesis/PITI](https://drive.google.com/file/d/18FduahKdY7O4SHAE7ZFwDJfoDbbt3QVh/view?usp=sharing)).
+This repository, part of the coursework for MA-INF 2307 - Lab Computer Vision, enhances the image-to-image translation task by introducing Semantic Color Editing. Users can select specific categories within an image and choose to color them with shades of green, red, or blue. The functionality is demonstrated through a user-friendly Gradio interface, as detailed in the lab [report]([https://github.com/PITI-Synthesis/PITI](https://drive.google.com/file/d/18FduahKdY7O4SHAE7ZFwDJfoDbbt3QVh/view?usp=sharing)).
 
 ## Installation
 ```bash
