@@ -29,6 +29,7 @@ The labels.txt contains all the categories that the model can recognize and edit
 
 
 ## Example
+![Example Image](img_interface.png)
 
 
 ## Acknowledgments
